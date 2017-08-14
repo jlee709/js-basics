@@ -1,6 +1,6 @@
 /* Create a `myName` variable and assign it a String value */
 
-var myName = "Justin";
+ var myName = "Justin";
 
 /* Create a `person` variable and give it 2 properties,
  * `name`, assign it the same name as before,
@@ -25,10 +25,15 @@ if (person.age >= 16){
  * and it should print "Hello, my name is {name}"
  */
 
+ function greet(name){
+ 	console.log("Hello, my name is " + name);
+ }
+
 /* Create an array called `dataTypes` with atleast 1 of every data type;
  * (there are 6 different data types);
  */
 
+var dataTypes = ["sword", 1337, undefined ,{ship: "ranger"}, false, null];
 
 /* Create a `dog` object
  * it should have a `bark` function that makes your dog bark!
