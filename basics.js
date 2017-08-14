@@ -1,6 +1,6 @@
 /* Create a `myName` variable and assign it a String value */
 
-var myName = "Justin;";
+var myName = "Justin";
 
 /* Create a `person` variable and give it 2 properties,
  * `name`, assign it the same name as before,
