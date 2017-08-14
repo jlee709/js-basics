@@ -40,4 +40,12 @@ var dataTypes = ["sword", 1337, undefined ,{ship: "ranger"}, false, null];
  * It should also have a name attribute with the value of 'Spot'
  */
 
+var dog = {
 
+	name: "Spot",
+
+	bark: function(){
+		console.log("woooooooof");
+	}
+
+};
